@@ -80,4 +80,7 @@ header {
       display: block;
       padding: 10px 0px 5px 10px;
   }
-  
+  .dropdownContact > li:hover > a {
+      color:blue;
+      text-decoration:underline;
+  }
