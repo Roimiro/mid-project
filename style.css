@@ -1,0 +1,8 @@
+.mainContainer{
+    width:900px;
+    margin: auto;
+    padding:30px;
+}
+.row {
+    display:flex;
+}
