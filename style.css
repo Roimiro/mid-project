@@ -16,7 +16,17 @@
 .nav {
     list-style: none;
     justify-content: space-evenly;
+    
 }
 header {
-    background: linear-gradient(180deg, #909090 80%, #a5a5a5 100%)
+    background: linear-gradient(180deg, #909090 85%, #a5a5a5 15%);
+    width:100%;
+}
+
+.abs{
+    position: absolute;
+}
+.imgRel{
+    position: relative;
+    top:20px;
 }
