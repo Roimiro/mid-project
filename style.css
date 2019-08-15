@@ -14,5 +14,9 @@
     border: 1px solid gray;
 }
 .nav {
-    
+    list-style: none;
+    justify-content: space-evenly;
+}
+header {
+    background: linear-gradient(180deg, #909090 80%, #a5a5a5 100%)
 }
