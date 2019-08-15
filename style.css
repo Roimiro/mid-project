@@ -34,7 +34,7 @@ header {
  .dropdown{
     position: absolute;
     display: none;
-    left:0px;
+    /* right:-25px; */
     background-color: #909090;
     
  }
@@ -44,6 +44,7 @@ header {
  }
  .dropdownContact{
      list-style: none;
+     padding: 0px;
     
  }
  .liItem{
@@ -66,9 +67,17 @@ header {
  }
  a{
      text-decoration: none;
-     font-size: 14px;
      color:white;
 
  }
- 
- 
+ li:hover {
+     background-color: #a5a5a5;
+ }
+ * {
+     box-sizing: border-box;
+ }
+  .dropdownContact > li {
+      display: block;
+      padding: 10px 0px 5px 10px;
+  }
+  
