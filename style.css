@@ -112,4 +112,16 @@ header {
   }
   a > span {
       padding-left: 13px;
+
+  }
+  .lastCube {
+      display: flex;
+      justify-content: space-between;
+  }
+  .lastCube > .colCube > a{
+    display: block;
+    color:#72716d;
+    font-size:13;
+    text-decoration: underline;
+    background: url(/images/read_more_blue.png) no-repeat left center;
   }
