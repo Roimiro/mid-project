@@ -1,6 +1,7 @@
 .mainContainer{
     width:900px;
     margin: auto 30px;
+    padding-bottom: 80px;
     
 }
 body{
@@ -125,3 +126,4 @@ header {
     text-decoration: underline;
     background: url(/images/read_more_blue.png) no-repeat left center;
   }
+  
