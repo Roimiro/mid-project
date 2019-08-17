@@ -3,6 +3,10 @@
     margin: auto 30px;
     
 }
+body{
+    font-family: 'Arial (Hebrew)', Arial;
+}
+
 .row {
     display:flex;
 }
@@ -99,4 +103,13 @@ header {
       color:#72716d;
       font-size:13;
       text-decoration: underline;
+      background: url(/images/read_more_blue.png) no-repeat left center;
+      float: left;
+  }
+  h5{
+    color:#575757;
+    font-size: 15px;
+  }
+  a > span {
+      padding-left: 13px;
   }
