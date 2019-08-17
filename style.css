@@ -1,7 +1,7 @@
 .mainContainer{
     width:900px;
-    margin: auto;
-    padding:30px;
+    margin: auto 30px;
+    
 }
 .row {
     display:flex;
@@ -10,7 +10,7 @@
     width:33%;
 }
 .down{
-    border-radius: 0px 15px 0px 0px;
+    border-radius: 0px 30px 0px 0px;
     border: 1px solid gray;
 }
 .nav {
@@ -56,6 +56,7 @@ header {
      position:fixed;
      bottom: 0%;
      background: linear-gradient(180deg, #a5a5a5 15%, #909090 85%);
+     height: 38px;
  }
 
  footer > ul {
@@ -83,4 +84,19 @@ header {
   .dropdownContact > li:hover > a {
       color:blue;
       text-decoration:underline;
+  }
+
+  .down{
+      background-image: url('images/cube_bg.png');
+      background-size:cover;
+      padding: 0 24px;
+      
+  }
+  .cubePadding{
+      margin-top: 20px;
+  }
+  .cubePadding > a {
+      color:#72716d;
+      font-size:13;
+      text-decoration: underline;
   }
