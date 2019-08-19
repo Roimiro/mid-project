@@ -126,4 +126,9 @@ header {
     text-decoration: underline;
     background: url(/images/read_more_blue.png) no-repeat left center;
   }
+.formFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
   
