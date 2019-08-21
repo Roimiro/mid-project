@@ -41,6 +41,7 @@ header {
     display: none;
     /* right:-25px; */
     background-color: #909090;
+    z-index: 2;
     
  }
  
@@ -182,6 +183,7 @@ div > label {
 }
 .up{
     position: relative;
+    z-index:1 ;
 }
 .content{
     width: 248px;
@@ -193,6 +195,7 @@ div > label {
     background-image: url("/images/hp_tab_text_bg.png");
     background-repeat: no-repeat;
     background-size:cover;
+    z-index: 3;
 }
 .content> h4{
     margin:0;
