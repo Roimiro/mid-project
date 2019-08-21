@@ -168,3 +168,15 @@ div > label {
 .sideCube a {
     color: #005ca0;
 }
+.sideBar{
+    width: 122px;
+    margin-left:20px;
+    height: 30px;
+    background-color: whitesmoke;
+    
+}
+.sideBar > a {
+    color: black;
+    padding:10px 5px 10px 5px;
+
+}
