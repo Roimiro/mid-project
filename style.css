@@ -105,7 +105,7 @@ header {
       color:#72716d;
       font-size:13;
       text-decoration: underline;
-      background: url(/images/read_more_blue.png) no-repeat left center;
+      background: url(images/read_more_blue.png) no-repeat left center;
       float: left;
   }
   h5{
@@ -125,7 +125,7 @@ header {
     color:#72716d;
     font-size:13;
     text-decoration: underline;
-    background: url(/images/read_more_blue.png) no-repeat left center;
+    background: url(images/read_more_blue.png) no-repeat left center;
   }
 .formFlex{
     display: flex;
@@ -192,7 +192,7 @@ div > label {
     left: 38px;
     bottom: 8px;
     color: #fff;
-    background-image: url("/images/hp_tab_text_bg.png");
+    background-image: url("images/hp_tab_text_bg.png");
     background-repeat: no-repeat;
     background-size:cover;
     z-index: 3;
